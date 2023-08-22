@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <!--
+    SPDX-FileCopyrightText: Stephan Orbaugh <stephan_orbaugh@hotmail.com>
+    SPDX-License-Identifier: CC0-1.0
+    -->
+    <id>notebook</id>
+    <name>Note Book</name>
+    <summary>Tutorial 6</summary>
+    <description><![CDATA[Tutorial 6 for testing]]></description>
+    <version>0.0.3</version>
+    <licence>agpl</licence>
+    <author mail="stephan_orbaugh@hotmail.com" >Stephan Orbaugh</author>
+    <namespace>NoteBook</namespace>
+    <category>organization</category>
+    <bugs>http://test.com</bugs>
+    <dependencies>
+        <nextcloud min-version="27" max-version="27"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Note Book</name>
+            <route>notebook.page.index</route>
+        </navigation>
+    </navigations>
+</info>
