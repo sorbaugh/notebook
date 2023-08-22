@@ -11,6 +11,7 @@ class Application extends App implements IBootstrap {
     public const APP_ID = 'notebook';
 	public const NOTE_FOLDER_NAME = 'TutorialNotes';
 
+    //This is a comment
     public function __construct(array $urlParams = []) {
         parent::__construct(self::APP_ID, $urlParams);
     }
